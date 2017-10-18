@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(lldb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/shm",
+            "args": [ "client" ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": true, // false for integratedTerminal
+            "MIMode": "lldb",
+            "logging": {
+                "programOutput": true,
+                "trace": false,
+                "moduleLoad": false
+            }
+//          "visualizerFile": "${workspaceRoot}/my.natvis",
+//          "showDisplayString": true
+        }
+    ]
+}
